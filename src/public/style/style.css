@@ -1,0 +1,96 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: #323640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 80%;
+    height: 90%;
+    background-color: #888D99;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diver {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.tx {
+    text-align: center;
+    margin: 0 0;
+    width: 100%;
+}
+
+h1 {
+    font: 5vh sans-serif;
+}
+
+h4 {
+    font: 1.5vh sans-serif;
+}
+
+li {
+    padding-left: 2vh;
+    border-radius: 20px;
+    margin: 0.2vw 0;
+    background-color: #333a4b;
+    padding-left: 1vw;
+    display: flex;
+    font: 1.5vh sans-serif;
+}
+
+.delete {
+    width: 8em;
+    background-color: #D23D4C;
+    font: 1.5vh sans-serif;
+
+    border-radius: 20px;
+
+}
+
+p {
+    font-weight: 600;
+    color: #888D99;
+    width: 30vw;
+}
+
+#close {
+    font: 1.5vh sans-serif;
+    border-radius: 20px;
+    margin-top: 2vh;
+    width:8em;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D23D4C;
+}
+
+#scroller {
+    padding: 1vh;
+    display: grid;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #333a4b;
+    height: 50vh;
+    overflow-y:auto
+}
